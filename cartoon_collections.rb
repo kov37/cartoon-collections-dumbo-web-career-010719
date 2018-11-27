@@ -10,7 +10,7 @@ def summon_captain_planet(arr)
   end
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(arr)
   arr.any? { |word| word.count > 4 }
 end
 
